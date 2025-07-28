@@ -73,6 +73,8 @@ mpz_class solveSecretFromFile(const string& filename) {
     return lagrangeInterpolation(selectedPoints, 0);
 }
 
+
+
 int main() {
     try {
         mpz_class secret1 = solveSecretFromFile("testcase1.json");
